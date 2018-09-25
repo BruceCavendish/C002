@@ -6,7 +6,7 @@ int main()
 	double m,p=0;
 	double a[]={0,100000,200000,400000,600000,1000000};
 	double b[]={0.1,0.075,0.05,0.03,0.015,0.01};
-	printf("Àû  Èó£º\n  ");
+	printf("åˆ©  æ¶¦\n  ");
 	scanf("%lf",&m);
 	for(i=0;i<6;i++)
 	{
@@ -20,7 +20,7 @@ int main()
 			break;
 		}
 	}
-	printf("½±½ðÎª£º\n  %.2f\n",p);
+	printf("å¥–é‡‘ä¸º\n  %.2f\n",p);
 	system("pause");
 	return 0;
 }
